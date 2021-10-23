@@ -1,0 +1,49 @@
+.about {
+  margin-top: 40px;
+}
+.about2 {
+  margin-top: 80px;
+}
+.about-bg {
+}
+.bg1 {
+  background: url("/assets/img/lake-6003727_1280.jpg");
+  height: 62vh;
+  width: 50%;
+  margin-top: -27px;
+}
+.bg2 {
+  background: url("/assets/img/lake-6003727_1280.jpg");
+  height: 62vh;
+  width: 57%;
+  margin-top: -266px;
+}
+.about-txt {
+  border: 1px solid #ddd;
+  padding: 32px 0;
+  background: #fff;
+  position: relative;
+  z-index: 99;
+  margin-right: -102px;
+  margin-left: 95px;
+}
+.about-txt2 {
+  margin-left: -102px;
+  margin-right: 95px;
+}
+.about-txt h3 {
+}
+.about-txt p {
+  color: #666;
+  padding: 0 72px;
+  font-size: 13px;
+  font-weight: 600;
+  margin: 19px 0;
+}
+.about-btn {
+  background: #f1b00c;
+  color: #fff;
+  font-weight: 600;
+  padding: 8px 30px;
+  border-radius: 3px;
+}

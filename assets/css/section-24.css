@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700;800;900&display=swap");
+
+/* testing section */
+
+section:nth-child(1),
+section:nth-child(3) {
+  padding: 140px;
+}
+/* main section */
+section.about-us {
+  background: url("https://farihatulmaria.github.io/150/assets/img/italy.jpg");
+  height: 40%;
+}
+.dark {
+  color: #fff !important;
+  background: linear-gradient(135deg, #11214b, #122c6d);
+}
+.main-content {
+  margin: -77px 10px;
+  padding: 77px;
+}
+.main-content h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 35px;
+  font-weight: 800;
+}
+.main-content p {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.bordered-content {
+  position: relative;
+  margin-bottom: 52px;
+}
+.bordered-content::before {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  content: "";
+  border-left: 1px solid #fff;
+  border-top: 1px solid #fff;
+  left: -46px;
+  top: -37px;
+}
+.bordered-content::after {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  content: "";
+  border-right: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  right: -50px;
+  bottom: -34px;
+}
+.author {
+  text-transform: capitalize;
+  font-size: 19px;
+  position: relative;
+  margin-left: 77px;
+}
+.author::before {
+  height: 2px;
+  width: 41px;
+  background: #fff;
+  left: -56px;
+  bottom: 7px;
+  content: "";
+  position: absolute;
+}
+.author span {
+  font-size: 12px;
+  font-style: italic;
+  font-weight: 400;
+}
+a.free-con {
+  color: #fff;
+  border: 2px solid #cca876;
+  background: transparent;
+  text-transform: capitalize;
+  transition: all 0.5s ease-in-out;
+  padding: 14px 29px;
+  border-radius: 0px;
+  margin-top: 27px;
+}
+a.free-con:hover {
+  background: #cca876;
+  color: #fff;
+  border-radius: 50px;
+}
+.about-us img {
+  height: 80%;
+}
+/* Resoppistive css */
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 980px) {
+}
+@media screen and (max-width: 768px) {
+  .main-content {
+    margin: -21px -75px;
+    padding: 74px;
+  }
+  section:nth-child(1),
+  section:nth-child(3) {
+    padding: 101px 18px;
+  }
+}
+@media screen and (max-width: 640px) {
+}
+
+@media screen and (max-width: 480px) {
+  .about-us {
+    margin-bottom: 365px;
+  }
+  .free-con {
+    margin: 30px 14px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+}

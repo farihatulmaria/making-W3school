@@ -1,0 +1,75 @@
+/* main section */
+.team-title {
+  position: relative;
+  margin-top: 100%;
+  font-size: 32px;
+  font-weight: 700;
+  transform: rotate(-90deg);
+}
+.team-title::before {
+  position: absolute;
+  top: -11px;
+  right: 0;
+  width: 99px;
+  height: 1px;
+  background: #000;
+  content: "";
+}
+
+.img-1 {
+  background: url("https://farihatulmaria.github.io/150/assets/img/al.jpg");
+  height: 133%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 69px;
+}
+.img-2 {
+  background: url("https://farihatulmaria.github.io/150/assets/img/al.jpg");
+  height: 148%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 135px;
+}
+.img-3 {
+  background: url("https://farihatulmaria.github.io/150/assets/img/al.jpg");
+  height: 133%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 26px;
+}
+.boxed-content {
+  position: relative;
+  text-align: center;
+  border: 1px solid #000;
+  text-transform: capitalize;
+  padding: 16px 6px;
+  margin-top: 2px;
+}
+.boxed-content h3 {
+  left: 28%;
+  top: -21px;
+  position: absolute;
+  background: #fff;
+}
+/* Resoppistive css */
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 980px) {
+}
+@media screen and (max-width: 768px) {
+  .boxed-content {
+    margin-top: -36px;
+  }
+  .boxed-content h3 {
+    left: 18%;
+  }
+}
+@media screen and (max-width: 640px) {
+}
+
+@media screen and (max-width: 480px) {
+}
+
+@media screen and (max-width: 320px) {
+}

@@ -1,0 +1,48 @@
+/* Resoppistive css */
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 980px) {
+}
+@media screen and (max-width: 768px) {
+  .contact-form {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .contact-form input[type="submit"] {
+    width: 65%;
+  }
+  a.boxed-btn {
+    padding: 15px 38px;
+  }
+  .contact-text {
+    padding: 11px;
+    padding-top: 49px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+}
+
+@media screen and (max-width: 480px) {
+  .absolute-text {
+    font-size: 39px;
+    margin-left: -53px;
+  }
+  .contact-form {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .contact-form input[type="submit"] {
+    width: 65%;
+  }
+  a.boxed-btn {
+    padding: 16px 51px;
+  }
+  .contact-text {
+    margin-left: 50px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+}

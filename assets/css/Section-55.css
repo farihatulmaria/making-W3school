@@ -1,0 +1,149 @@
+.product {
+  margin-top: 50px;
+}
+.main-menu {
+  margin-bottom: 50px;
+}
+.main-menu ul {
+  margin: 0;
+  padding: 0;
+}
+.main-menu ul li {
+  display: inline-block;
+  margin: 0 15px;
+  border-bottom: 3px solid transparent;
+  margin-bottom: 8px;
+}
+.main-menu ul li.active {
+  font-weight: 700;
+  color: #333;
+  border-bottom: 3px solid #333;
+}
+.product-1 {
+  background: url("https://farihatulmaria.github.io/150/assets/img/big-plane.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.product-2 {
+  background: url("https://farihatulmaria.github.io/150/assets/img/toy-plane.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.product-3 {
+  background: url("https://farihatulmaria.github.io/150/assets/img/paper-plane.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.product-4 {
+  background: url("https://farihatulmaria.github.io/150/assets/img/about-img-4.jpg.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.product-5 {
+  background: url("https://farihatulmaria.github.io/150/assets/img/about-img-2.jpg.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.product-6 {
+  background: url("https://farihatulmaria.github.io/150/assets/img/bird-6564593_640.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.product-7 {
+  background: url("https://farihatulmaria.github.io/150/assets/img/coffee.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.product-8 {
+  background: url("https://farihatulmaria.github.io/150/assets/img/chess-2730034_1920.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.product-9 {
+  background: url("https://farihatulmaria.github.io/150/assets/img/about-img-5.jpg.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.single-product {
+  background-color: #ddd;
+  display: table;
+  width: 100%;
+  height: 300px;
+  margin-bottom: 20px;
+  position: relative;
+  transition: all 0.3;
+}
+.single-product::before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 80px;
+  height: 80px;
+  border-right: 3px solid #000;
+  border-top: 3px solid #000;
+  content: "";
+  z-index: 3;
+  opacity: 0;
+  transition: all 0.3;
+  visibility: hidden;
+}
+.single-product:hover::before,
+.single-product:hover::after {
+  opacity: 1;
+  visibility: visible;
+}
+.single-product::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 80px;
+  height: 80px;
+  border-left: 3px solid #000;
+  border-bottom: 3px solid #000;
+  content: "";
+  z-index: 3;
+  opacity: 0;
+  transition: all 0.3;
+  visibility: hidden;
+}
+.product-hover {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 0 61px;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  transition: all 0.3s;
+  opacity: 0;
+}
+.single-product:hover .product-hover {
+  opacity: 1;
+}
+.single-product:hover .product-hover::after {
+  transform: scale(1);
+}
+.product-hover::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  opacity: 0.6;
+  content: "";
+  z-index: -3;
+  transform: scale(0.7);
+  transition: all 0.3s;
+}
+.product-hover span {
+  text-transform: capitalize;
+}

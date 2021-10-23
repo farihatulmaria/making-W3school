@@ -1,0 +1,55 @@
+/* footer */
+footer {
+  background: #130d49;
+  padding: 50px 0;
+  color: #fff;
+}
+footer a {
+  color: #fff;
+}
+footer a:hover {
+  color: #fff;
+}
+.sign-up h3 {
+  font-size: 24px;
+  margin-bottom: 45px;
+}
+.sign-up form {
+  margin-bottom: 20px;
+}
+.sign-up input[type="email"] {
+  border: none;
+  border-radius: 3px;
+  background: #fff;
+  padding: 12px 1px;
+  color: #888;
+  text-align: center;
+}
+.sign-up input[type="submit"] {
+  color: #fff;
+  background: #17b794;
+  border-radius: 3px;
+  transition: all 0.5s ease-in-out;
+  border: none;
+  margin-left: 63px;
+  padding: 13px 21px;
+  font-weight: 600;
+}
+.sign-up input[type="submit"]:hover {
+  color: #fff;
+  background: #17b794;
+}
+.social-icons {
+  margin-top: 10px;
+}
+.social-icons a {
+  transition: all 0.5s ease-in-out;
+  padding: 17px;
+  cursor: pointer;
+}
+.social-icons a:hover {
+  color: #17b794;
+}
+.copy-right {
+  background: #150e56;
+}

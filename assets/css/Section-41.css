@@ -1,0 +1,130 @@
+/* project */
+.project {
+  height: 100%;
+}
+.project-title {
+  margin-top: 30px;
+}
+.project-title h1 {
+  font-weight: 500;
+}
+.project-title h2 {
+  font-weight: 400;
+}
+.project-title h2 span {
+  color: red;
+}
+.project-slider {
+  margin-top: 50px;
+}
+.single-project {
+  border-radius: 8px;
+  height: 300px;
+  position: relative;
+  z-index: 2;
+}
+.single-project::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: 0.7;
+  z-index: -1;
+}
+.single-project:hover .link-hover {
+  opacity: 1;
+}
+.bg-1 {
+  background: url("https://farihatulmaria.github.io/150/assets/img/bird-6564593_640.jpg");
+  background-color: #f5f5f5f5;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.bg-2 {
+  background: url("https://farihatulmaria.github.io/150/assets/img/blueberries-3460423_1920.jpg");
+  background-color: #f5f5f5f5;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.bg-3 {
+  background: url("https://farihatulmaria.github.io/150/assets/img/berries-2277_640.jpg");
+  background-color: #f5f5f5f5;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.link-hover {
+  position: absolute;
+  color: #fff;
+  bottom: 22px;
+  left: 22px;
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+  z-index: 2;
+}
+a.borwse-btn {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  border: 1px solid #fff;
+  border-radius: 32px;
+  transition: all 0.5s ease;
+}
+a.borwse-btn:hover {
+  background: #fff;
+  color: #000;
+}
+
+/* slider css*/
+.slick-slide {
+  margin: 0 20px;
+}
+.slick-list {
+  margin: 0 -20px;
+}
+.slick-dots {
+  bottom: -68px;
+}
+.slick-prev::before,
+.slick-next::before {
+  display: none;
+}
+.slick-dots li {
+  position: relative;
+  display: inline-block;
+  width: 23px;
+  height: 23px;
+  margin: -2px 16px;
+  padding: 0;
+  cursor: pointer;
+  background: transparent;
+  border: 5px solid #c8c8c8;
+  transition: 0.5s ease;
+  border-radius: 50%;
+}
+li.slick-active {
+  background: #c8c8c8;
+}
+/* Resoppistive css */
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 980px) {
+}
+@media screen and (max-width: 768px) {
+  .link-hover {
+    opacity: 1;
+  }
+}
+@media screen and (max-width: 640px) {
+}
+
+@media screen and (max-width: 480px) {
+}
+
+@media screen and (max-width: 320px) {
+}

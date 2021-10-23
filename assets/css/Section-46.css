@@ -1,0 +1,70 @@
+body .contact {
+  background: url("https://farihatulmaria.github.io/150/assets/img/preview56.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 871px;
+  width: 1383px;
+}
+header {
+  padding-top: 84px;
+}
+.logo h2 {
+  font-weight: 400;
+  font-size: 40px;
+}
+.logo a {
+  color: #000;
+}
+.logo a:hover {
+  color: #000;
+}
+header h5 {
+  font-weight: 400;
+  line-height: 0;
+}
+section {
+  margin-top: 153px;
+  margin-bottom: 183px;
+}
+.contact-txt h2 {
+  font-size: 47px;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+.contact-txt p {
+  font-size: 20px;
+}
+.contact-txt p a {
+  font-weight: 700;
+  color: #7c5b78;
+}
+.copy-right p {
+  font-size: 19px;
+}
+.copy-right p svg {
+  margin-right: 5px;
+}
+.social-icons a svg {
+  font-size: 30px;
+  color: #b2acb1;
+  margin: 0 14px;
+}
+/* Resoppistive css */
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 980px) {
+}
+@media screen and (max-width: 768px) {
+  .contact {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 640px) {
+}
+
+@media screen and (max-width: 480px) {
+}
+
+@media screen and (max-width: 320px) {
+}

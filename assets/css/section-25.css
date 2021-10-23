@@ -1,0 +1,88 @@
+/* main section */
+
+.single-slider {
+  background: url("https://farihatulmaria.github.io/150/assets/img/office-594132_1920.jpg");
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+  margin-bottom: 50px;
+  height: 650px;
+  background-color: #dddddd;
+  position: relative;
+}
+.slider-text-area {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+.slider-text {
+  position: relative;
+  background: #00a2ffe3;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-right: 150px;
+  line-height: 1.2;
+}
+.slider-text::before {
+  position: absolute;
+  left: -1000%;
+  top: 0;
+  height: 100%;
+  width: 1000%;
+  content: "";
+  background: #00a2ffe3;
+}
+.slider-text::after {
+  position: absolute;
+  right: -19px;
+  top: 40px;
+  height: 40px;
+  width: 40px;
+  background: #00a2ffe3;
+  content: "";
+  transform: rotate(45deg);
+}
+.slider-text h2 {
+  font-weight: 500;
+  font-size: 47px;
+}
+.slider-text p {
+  font-weight: 900;
+  opacity: 0.8;
+  font-size: 16px;
+}
+.booking-btn {
+  color: #fff;
+  background: #494949;
+  margin-top: 35px;
+  border-radius: 0;
+  padding: 16px 35px;
+  font-weight: 800;
+  font-size: 12px;
+  transition: all 0.5s ease-in-out;
+}
+.booking-btn:hover {
+  color: #fff;
+  background: #494949;
+}
+/* Resoppistive css */
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 980px) {
+}
+@media screen and (max-width: 768px) {
+}
+@media screen and (max-width: 640px) {
+}
+
+@media screen and (max-width: 480px) {
+  .slider-text::after {
+    right: 50px;
+    top: -20px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+}

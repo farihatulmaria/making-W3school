@@ -1,0 +1,33 @@
+.service {
+  margin-top: 40px;
+}
+.service-list {
+  border-top: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+  width: 100%;
+  height: 100%;
+}
+.single-service {
+  border-bottom: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  width: 33.333%;
+  float: left;
+  transition: 0.5s;
+  padding: 58px 11px;
+  text-align: center;
+}
+.single-service:hover {
+  box-shadow: 0 0 60px #888;
+}
+.single-service:hover svg {
+  color: #ff008c;
+}
+.single-service h2 {
+  margin-bottom: 24px;
+}
+.single-service svg {
+  font-size: 40px;
+  color: #999;
+  transition: 0.5s;
+  margin-bottom: 24px;
+}

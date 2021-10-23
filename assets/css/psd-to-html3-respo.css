@@ -1,0 +1,153 @@
+/* Resoppistive css */
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 980px) {
+  .top-banner {
+    display: none;
+  }
+  .menu-trigger {
+    display: none;
+  }
+  .offcanvas-menu {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .top-banner {
+    display: none;
+  }
+  .menu-trigger {
+    display: block;
+  }
+  .offcanvas-menu {
+    display: block;
+    width: 34%;
+  }
+  .offcanvas-menu.show-menu {
+    right: 44px;
+  }
+  .main-menu {
+    display: none;
+  }
+  .menu-trigger {
+    top: -63px;
+  }
+  .offcanvas-shade {
+    display: block;
+  }
+  .service-head h4 {
+    padding: 10px 23px;
+    left: 24px;
+    font-size: 12px;
+  }
+  .about-img::before {
+    right: -98px;
+    width: 192px;
+  }
+  .about-img::after {
+    left: -98px;
+    width: 192px;
+  }
+  .about-txt {
+    margin-top: 0;
+  }
+  .about-txt p {
+    font-size: 11px;
+  }
+  .offer h5 {
+    line-height: 2;
+  }
+  .project-txt {
+    padding: 0;
+  }
+  .team-social-icon br {
+    display: block;
+  }
+}
+@media screen and (max-width: 640px) {
+}
+
+@media screen and (max-width: 480px) {
+  .offcanvas-menu.show-menu {
+    right: 24px;
+    width: 50%;
+  }
+  .menu-trigger {
+    right: 47px;
+    display: block;
+  }
+  .slider-txt h1 {
+    font-size: 36px;
+  }
+  .slick-dots {
+    bottom: 22px;
+    width: 20%;
+    left: 13px;
+  }
+  .slider-btn {
+    margin-right: 0;
+    padding: 7px 27px;
+    margin-left: 20px;
+    margin-bottom: 23px;
+  }
+  .service-box {
+    margin-bottom: 50px;
+  }
+  .service-head h4 {
+    padding: 16px 61px;
+    left: 30px;
+    font-size: 16px;
+  }
+  .about-txt {
+    margin-top: 23px;
+  }
+  .about-txt p {
+    font-size: 13px;
+  }
+  .offer h5 {
+    margin-bottom: 50px;
+  }
+  .project-txt {
+    padding: 33px 23px;
+    text-align: center;
+  }
+  .team-member {
+    padding: 23px 0;
+  }
+  .team-member img {
+    width: 100%;
+  }
+  .partners-img {
+    padding: 19px 0;
+  }
+  .partners-img img {
+    width: 108%;
+  }
+  footer {
+    text-align: center;
+  }
+  footer h4::after {
+    left: 33%;
+    width: 36%;
+  }
+  .footer-nav,
+  .footer-news,
+  .footer-contact {
+    margin-bottom: 40px;
+  }
+  .footer-nav nav ul {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .menu-trigger {
+    right: 47px;
+    display: block;
+  }
+  .offcanvas-menu {
+    display: block;
+  }
+}

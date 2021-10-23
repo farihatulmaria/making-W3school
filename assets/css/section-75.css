@@ -1,0 +1,26 @@
+.service {
+  margin-top: 100px;
+}
+.service-box {
+  border: 1px solid #ddd;
+  padding: 40px 35px;
+  position: relative;
+}
+.service-icon {
+  position: absolute;
+  background: #54be73;
+  top: -42px;
+  left: 38%;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  text-align: center;
+  padding-top: 20px;
+  font-size: 24px;
+}
+.service-icon svg {
+  color: #fff;
+}
+.service-txt {
+  margin-top: 30px;
+}

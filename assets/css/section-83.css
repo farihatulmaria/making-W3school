@@ -1,0 +1,132 @@
+/* header starts from here */
+header {
+  position: relative;
+}
+header::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 60%;
+  height: 100vh;
+  background: rgb(15, 95, 125);
+  background: linear-gradient(
+    42deg,
+    rgba(15, 95, 125, 1) 0%,
+    rgba(13, 134, 193, 1) 100%
+  );
+  z-index: -1;
+  content: "";
+}
+/* head starts from here */
+.head {
+  padding: 30px 0;
+}
+.logo {
+  color: #fff;
+  font-size: 27px;
+  font-weight: 600;
+  margin-top: -11px;
+  position: relative;
+}
+.logo::after {
+  position: absolute;
+  bottom: -7px;
+  left: -1px;
+  width: 33px;
+  height: 34px;
+  transform: rotate(45deg);
+  border-bottom: 4px solid #f5f5f5;
+  content: "";
+  border-right: 4px solid #f5f5f5;
+}
+.logo svg {
+  color: #9dec27de;
+}
+.main-menu {
+  margin-left: -32px;
+}
+.main-menu ul li {
+  margin: 0 13px;
+}
+.main-menu ul li a {
+  color: #fff;
+  font-size: 13px;
+  font-weight: 400;
+  transition: all 0.5s;
+}
+.main-menu ul li a:hover {
+  color: #9dec27de;
+}
+.head-links {
+  color: #000;
+}
+.head-links a {
+  color: #000;
+}
+.head-links a:nth-child(1) svg {
+  margin-right: 13px;
+}
+.social-icons {
+  padding: 8px 17px;
+  border-left: 1px solid #f5f5f5;
+  margin: 0 25px;
+}
+.social-icons a {
+  padding: 0 9px;
+}
+
+/* head ends from here */
+/* homepage-slider starts from here */
+.homepage-slider {
+}
+.single-slider {
+  display: table;
+  padding-top: 151px;
+}
+.slider-bg1 {
+  background: url("/assets/img/office.jpg");
+  height: 69vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.slider-cell {
+  display: table-cell;
+  vertical-align: middle;
+}
+.slider-txt {
+  margin-left: 65px;
+}
+.slider-btn {
+  color: #fff;
+  font-weight: 600;
+  text-align: center;
+  background: #206bc0;
+}
+.slider-btn:hover {
+  color: #fff;
+}
+/* slick slider css */
+.slick-prev::before,
+.slick-next::before {
+  font-size: 30px;
+  color: #fff;
+}
+.slick-prev,
+.slick-next {
+  top: 104%;
+  width: auto;
+  height: auto;
+  transition: all 0.3s;
+  color: #fff;
+  opacity: 1;
+}
+.slick-prev:hover,
+.slick-next:hover {
+  color: #fff;
+}
+.slick-next {
+  left: 46px;
+}
+/* homepage-slider ends from here */
+/* header ends from here */

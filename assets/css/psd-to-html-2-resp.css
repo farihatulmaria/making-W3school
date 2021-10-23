@@ -1,0 +1,180 @@
+/* Resoppistive css */
+@media screen and (max-width: 1400px) {
+  #sidenav {
+    display: none;
+  }
+  #menu-btn {
+    display: none;
+  }
+  #menu-btn svg {
+    display: none;
+  }
+}
+@media screen and (max-width: 1200px) {
+  #sidenav {
+    display: none;
+  }
+  #menu-btn {
+    display: none;
+  }
+  #menu-btn svg {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .slider img {
+    min-width: 1000px;
+  }
+  #sidenav {
+    display: none;
+  }
+  #menu-btn {
+    display: none;
+  }
+  #menu-btn svg {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main-menu ul li a {
+    margin-right: 56px;
+    font-size: 12px;
+  }
+  .slider img {
+    min-width: 712px;
+  }
+  .slider {
+    margin-top: 26px;
+  }
+  .section-1 {
+    margin-top: -28px;
+    margin-left: 80px;
+  }
+  .life-style {
+    margin-left: 77px;
+  }
+  .input {
+    width: 41%;
+    margin-left: 238px;
+  }
+  .sign-in-form form .input input {
+    margin-left: -57px;
+  }
+  .section-4 {
+    margin-left: 80px;
+  }
+  #sidenav {
+    display: none;
+  }
+  #menu-btn {
+    display: none;
+  }
+  #menu-btn svg {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .life-style {
+    margin-left: 0px;
+  }
+  .about-text h5 {
+    font-size: 30px;
+  }
+  .main-menu {
+    display: none;
+  }
+  #sidenav {
+    display: block;
+  }
+  #menu-btn {
+    display: block;
+  }
+  #menu-btn svg {
+    display: block;
+  }
+  .section-4 {
+    margin-left: 0px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .life-style {
+    margin-left: 0px;
+  }
+  .about-text h5 {
+    font-size: 25px;
+  }
+  .section-1 {
+    margin-left: 20px;
+  }
+  .slider img {
+    min-width: 400px;
+    height: 300px;
+    margin-left: -6px;
+  }
+  .main-menu {
+    display: none;
+  }
+  #sidenav {
+    display: block;
+  }
+  #menu-btn {
+    display: block;
+  }
+  #menu-btn svg {
+    display: block;
+  }
+  #sidenav ul {
+    margin-top: 90px;
+    margin-right: 152px;
+  }
+  .section-4 {
+    margin-left: 0px;
+  }
+  .load-more-btn {
+    margin-left: -4px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .life-style {
+    margin-left: 0px;
+  }
+  .load-more-btn {
+    margin-left: -4px;
+  }
+  .social-icons {
+    margin-top: -35px;
+  }
+  .section-4 {
+    margin-left: 0px;
+  }
+  .section-1 {
+    margin-left: 10px;
+  }
+  .about-text h5 {
+    font-size: 25px;
+  }
+  .slider img {
+    min-width: 400px;
+    height: 300px;
+    margin-left: -6px;
+  }
+  .main-menu {
+    display: none;
+  }
+  #sidenav {
+    display: block;
+  }
+  #menu-btn {
+    display: block;
+  }
+  #menu-btn svg {
+    display: block;
+  }
+  #sidenav ul {
+    margin-right: 152px;
+  }
+}

@@ -1,0 +1,46 @@
+.products {
+  margin-top: 80px;
+}
+.product-box {
+  border: 1px solid #ddd;
+  position: relative;
+  margin-bottom: 60px;
+}
+.product-box img {
+  width: 100%;
+}
+.product-info {
+  padding: 35px 0;
+  line-height: 2;
+}
+.product-info span {
+  color: #999;
+  font-size: 14px;
+}
+.product-btn {
+  color: #999;
+  border: 1px solid #ddd;
+  font-size: 12px;
+  position: absolute;
+  bottom: -16px;
+  background: #fff;
+  right: 33%;
+  z-index: 999;
+  font-weight: 700;
+}
+/* Resoppistive css */
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 980px) {
+}
+@media screen and (max-width: 768px) {
+}
+@media screen and (max-width: 640px) {
+}
+
+@media screen and (max-width: 480px) {
+}
+
+@media screen and (max-width: 320px) {
+}

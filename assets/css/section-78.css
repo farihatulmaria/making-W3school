@@ -1,0 +1,51 @@
+.testimonial {
+  margin-top: 50px;
+}
+.single-testimonial {
+  position: relative;
+  display: table;
+  transition: all 0.5s;
+}
+.bg-1 {
+  background: url("https://farihatulmaria.github.io/150/assets/img/testimonial-1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+}
+.bg-2 {
+  background: url("https://farihatulmaria.github.io/150/assets/img/testimonial-2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+}
+.single-testimonial:hover .testimonial-hover {
+  opacity: 0.8;
+  transform: scale(1);
+}
+.testimonial-hover {
+  background: #f5f5f5;
+  color: #000;
+  display: table-cell;
+  vertical-align: middle;
+  padding: 0 42px;
+  opacity: 0;
+  transition: all 0.5s;
+  transform: scale(0.2);
+}
+.testimonial-hover h3 {
+  font-weight: 100;
+}
+.testimonial-hover p {
+  font-weight: 100;
+  margin-bottom: 39px;
+}
+.social-icons {
+}
+.social-icons a {
+  color: #666;
+  margin: 0 14px;
+}
+.social-icons a svg {
+}

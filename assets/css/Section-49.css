@@ -1,0 +1,118 @@
+/* comment */
+.comment-title {
+  margin-bottom: 50px;
+}
+.comment-title p {
+  padding: 0 208px;
+}
+.comment-txt {
+  color: #888;
+  padding: 30px;
+  position: relative;
+  transition: 0.5s ease-in-out;
+  margin-bottom: 20px;
+}
+.comment:hover .comment-txt::after {
+  opacity: 1;
+  visibility: visible;
+}
+.comment:hover .comment-txt {
+  background: #17b794;
+  color: #fff;
+}
+.comment:hover.comment img {
+  opacity: 1;
+}
+.comment:hover.comment h5 {
+  opacity: 1;
+}
+.comment:hover.comment span {
+  opacity: 1;
+}
+.comment-txt::after {
+  position: absolute;
+  bottom: -13px;
+  left: 6px;
+  background: #17b794;
+  content: "";
+  width: 8%;
+  height: 27px;
+  opacity: 0;
+  visibility: hidden;
+  transform: rotate(45deg);
+  transition: 0.5s ease-in-out;
+}
+.comment-txt svg {
+  margin-bottom: 10px;
+}
+.comment-txt h3 {
+  transition: 0.5s ease-in-out;
+}
+.comment-txt p {
+  transition: 0.5s ease-in-out;
+}
+.comment img {
+  transition: 0.5s ease-in-out;
+  border-radius: 50%;
+  opacity: 0;
+}
+.comment h5 {
+  transition: 0.5s ease-in-out;
+  text-transform: capitalize;
+  opacity: 0;
+}
+.comment span {
+  transition: 0.5s ease-in-out;
+  opacity: 0;
+  display: block;
+  font-size: 14px;
+  color: #ddd;
+  margin-top: 5px;
+} /* Resoppistive css */
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 980px) {
+}
+@media screen and (max-width: 768px) {
+  .comment-title p {
+    padding: 0;
+  }
+  .comment img {
+    width: 25%;
+    opacity: 1;
+  }
+  .comment-txt {
+    background: #17b794;
+    color: #fff;
+  }
+  .comment h5 {
+    opacity: 1;
+  }
+  .comment span {
+    opacity: 1;
+  }
+  .comment-txt::after {
+    position: absolute;
+    bottom: -13px;
+    left: 6px;
+    background: #17b794;
+    content: "";
+    width: 8%;
+    height: 27px;
+    opacity: 1;
+    visibility: visible;
+    transform: rotate(45deg);
+  }
+  .comment {
+    margin-bottom: 35px;
+  }
+}
+@media screen and (max-width: 640px) {
+}
+
+@media screen and (max-width: 480px) {
+}
+
+@media screen and (max-width: 320px) {
+}

@@ -1,0 +1,107 @@
+.testimonial {
+  margin: 20px 0;
+}
+.title {
+  margin-bottom: 30px;
+}
+.title h2 {
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+h1 span {
+  text-transform: capitalize;
+  color: #ddd;
+  position: absolute;
+  z-index: 1;
+  top: 352px;
+  left: -37px;
+  transform: rotate(-90deg);
+}
+h1 span::after {
+  position: absolute;
+  top: 30px;
+  left: 102%;
+  width: 49%;
+  height: 3px;
+  background: #ddd;
+  content: "";
+}
+.comment {
+  width: 100%;
+  margin-top: 72px;
+  text-align: center;
+  padding: 57px 15px;
+  box-shadow: 0 0 15px #f7f7f7;
+}
+.commenter {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 34px;
+}
+.commenter img {
+  width: 13%;
+  margin-right: 24px;
+}
+.commenter h4 {
+  text-transform: capitalize;
+}
+.commenter h4 span {
+  font-size: 12px;
+  color: #999;
+}
+li {
+  margin-top: 20px;
+}
+li a {
+  display: flex;
+}
+li a img {
+  width: 41%;
+  border-radius: 50%;
+  margin-right: 17px;
+  height: 83px;
+}
+li a h4 {
+  margin-top: 20px;
+  font-size: 13px;
+  text-transform: capitalize;
+  color: #000;
+}
+li a h4 span {
+  color: #999;
+}
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  background-color: #fff;
+}
+.nav-link {
+  opacity: 0.5;
+}
+.nav-link.active {
+  background: #fff;
+  opacity: 1;
+}
+/* Resoppistive css */
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 980px) {
+}
+@media screen and (max-width: 768px) {
+  h1 span::after {
+    display: none;
+  }
+  h1 span {
+    display: none;
+  }
+}
+@media screen and (max-width: 640px) {
+}
+
+@media screen and (max-width: 480px) {
+}
+
+@media screen and (max-width: 320px) {
+}

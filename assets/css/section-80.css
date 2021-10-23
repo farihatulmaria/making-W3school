@@ -1,0 +1,33 @@
+.sign-up {
+}
+.sign-up-area {
+  background: url("/assets/img/work-1.png");
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  display: table;
+}
+.sign-up-txt {
+  display: table-cell;
+  vertical-align: middle;
+}
+.sign-up-txt h2 {
+}
+form {
+}
+form input {
+}
+form input[type="submit"] {
+}
+.sign-up-txt p {
+}
+.container,
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
+  padding-left: 0;
+  padding-right: 0;
+}

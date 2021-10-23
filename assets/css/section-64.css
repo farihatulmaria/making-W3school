@@ -1,0 +1,87 @@
+body {
+  background: #fff;
+}
+.about {
+  margin-top: 50px;
+}
+.about-bg {
+  position: absolute;
+  left: 25%;
+  width: 50%;
+  z-index: -1;
+  background-color: #ddd;
+}
+.about-1 .about-bg {
+  background: url("https://farihatulmaria.github.io/psd-to-html/assets/img/building.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 45%;
+}
+.about-2 .about-bg {
+  background: url("https://farihatulmaria.github.io/150/assets/img/coffee.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 45%;
+}
+.about-3 .about-bg {
+  background: url("https://farihatulmaria.github.io/150/assets/img/chess-2730034_1920.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 45%;
+}
+.about-4 .about-bg {
+  background: url("https://farihatulmaria.github.io/150/assets/img/raspberries-1495713_1280.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 45%;
+}
+
+.about-txt {
+  background: #fff;
+  padding: 40px 57px;
+  color: #000;
+  box-shadow: 0 0 13px #999;
+  border-radius: 3px;
+  font-size: 17px;
+  line-height: 1.6;
+  padding-left: 112px;
+  padding-top: 62px;
+  position: relative;
+  border-bottom: 4px solid #ff5100;
+}
+.about-2 .about-txt {
+  border-bottom: 4px solid #09c939;
+}
+.about-3 .about-txt {
+  border-bottom: 4px solid #0a1aa7;
+}
+.about-4 .about-txt {
+  border-bottom: 4px solid #ffee00;
+}
+.about-txt .about-no {
+  position: absolute;
+  top: 17px;
+  left: 40px;
+  font-size: 40px;
+  opacity: 0.2;
+  font-weight: 600;
+}
+.about-no::after {
+  position: absolute;
+  top: 30px;
+  right: -21px;
+  background: #000;
+  z-index: -1;
+  height: 1px;
+  width: 84px;
+  content: "";
+  transform: rotate(-45deg);
+}
+.about-txt h2 {
+  font-size: 24px;
+  font-weight: 500;
+}

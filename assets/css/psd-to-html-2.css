@@ -1,0 +1,250 @@
+/* main css */
+
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;700&display=swap");
+
+.ubuntu {
+  font-family: "Ubuntu", sans-serif;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&family=Ubuntu:wght@300;700&display=swap");
+
+.playfairDisplay {
+  font-family: "Playfair Display", serif;
+  font-family: "Ubuntu", sans-serif;
+}
+body {
+  color: #626262 !important;
+}
+a {
+  color: #000;
+}
+/* header */
+header {
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+.top-banner h2 {
+  font-size: 30px;
+  font-weight: 500;
+}
+.main-menu ul {
+  padding: 0;
+  margin: 0;
+  float: inline-end;
+}
+.main-menu ul li {
+  display: inline-block;
+}
+.main-menu ul li a {
+  color: #626262;
+  font-family: "Playfair Display", serif;
+  margin-right: 100px;
+  transition: all 0.5s ease-in-out;
+}
+.main-menu ul li a:hover {
+  color: #f0f0f0;
+  opacity: 1;
+  background: #000;
+  padding: 9px;
+  border-radius: 10px;
+  font-weight: 600;
+}
+.slider {
+  margin-top: 69px;
+}
+.slider img {
+  min-width: 1094px;
+}
+
+/* sections */
+
+/* section-1 */
+.section-1 {
+  margin-top: 24px;
+  margin-bottom: 100px;
+  margin-left: 140px;
+}
+.about-text h6 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 100;
+  line-height: 0;
+  text-transform: uppercase;
+}
+.about-text h5 {
+  margin: 40px 0;
+  line-height: 0;
+  font-family: "Playfair Display", serif;
+  font-weight: 200 !important;
+  font-size: 32px;
+}
+.about-text p {
+  font-family: "Playfair Display", serif;
+  font-size: 16px;
+}
+.about-text a {
+  color: #626262;
+  text-transform: uppercase;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 100;
+  font-size: 14px;
+  margin-left: 3px;
+}
+
+/* section-2 */
+.life-style {
+  margin-left: 164px;
+}
+.life-style-txt {
+  margin: 30px 0;
+  margin-bottom: 135px;
+}
+.life-style-txt h6 {
+  line-height: 0;
+  font-weight: 300;
+  font-family: "Ubuntu", sans-serif;
+}
+.life-style-txt h3 {
+  font-family: "Playfair Display", serif;
+  font-weight: 500;
+}
+.life-style-txt p {
+  font-weight: 600;
+  font-family: "Playfair Display", serif;
+}
+
+/* section-3 */
+.section-3 {
+  width: 100%;
+  background: #f0f0f0;
+  font-family: "Playfair Display", serif;
+  margin-bottom: 50px;
+}
+.sign-in-form {
+  margin: 76px 0;
+}
+.sign-in-form form {
+  margin-top: 62px;
+}
+.input {
+  position: relative;
+  border-bottom: 1px solid #000;
+  width: 35%;
+  margin-left: 367px;
+}
+.sign-in-form form a {
+  border: none;
+  float: right;
+  margin-top: 9px;
+}
+.sign-in-form form .input input {
+  background: #f0f0f0;
+  border: none;
+  padding: 9px;
+  min-width: 74%;
+  margin-left: -83px;
+}
+/* section-4 */
+.section-4 {
+  margin: 101px 0;
+  margin-left: 188px;
+}
+.load-more-btn {
+  margin-left: -154px;
+}
+a.load {
+  text-align: center;
+  padding: 19px 55px;
+  font-family: "Playfair Display", serif;
+  border: 1px solid #000;
+  transition: all 0.5s ease-in-out;
+}
+a.load:hover {
+  background: #000;
+  color: #fff;
+}
+/* footer */
+footer {
+  background: #f0f0f0;
+  color: #000;
+  font-family: "Playfair Display", serif;
+}
+.footer-text {
+  margin-top: 40px;
+  margin-bottom: 50px;
+  margin-left: 100px;
+}
+footer p {
+  display: inline-block;
+  font-weight: 500;
+  margin-right: 23px;
+}
+.social-icons {
+  margin-top: 40px;
+  margin-bottom: 50px;
+  float: right;
+  margin-right: 60px;
+}
+.social-icons h6 {
+  display: inline-block;
+}
+.social-icons a {
+  display: inline-block;
+  color: #000;
+  margin-right: 7px;
+  margin-left: 25px;
+}
+footer a {
+  color: #000;
+}
+
+/* off canvas menu */
+
+#sidenav {
+  text-align: center;
+  float: right;
+  height: 100vh;
+  position: fixed;
+  right: 0;
+  top: 0;
+  background: #000;
+  transition: 0.5s;
+}
+#sidenav ul {
+  margin-top: 90px;
+  margin-right: 34px;
+}
+#sidenav nav ul li {
+  margin: 50px 20px;
+}
+#sidenav nav ul li a {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: larger;
+  font-weight: 600;
+  transition: all 0.5s ease-in-out;
+}
+#sidenav nav ul li a:hover {
+  padding: 20px 18px;
+  border-radius: 8px;
+  background: #fff;
+  color: #000;
+}
+#menu-btn {
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  background: #000;
+  text-align: center;
+  right: 160px;
+  top: 40px;
+  padding: 5px 5px;
+  border-radius: 3px;
+  z-index: 3;
+  cursor: pointer;
+}
+#menu-btn svg {
+  color: #fff;
+  font-size: 30px;
+  margin-top: 8px;
+  margin-right: -60px;
+}

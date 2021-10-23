@@ -1,0 +1,45 @@
+.login-form {
+  margin-top: 50px;
+}
+.title {
+  margin-bottom: 50px;
+}
+.title p {
+  padding: 0 195px;
+}
+.form-element {
+  position: relative;
+}
+.form-element label {
+  text-transform: uppercase;
+  font-weight: bold;
+  position: absolute;
+  top: 13px;
+  left: 21px;
+}
+.form-element input,
+textarea {
+  border: 1px solid #ddd;
+  padding: 44px 32px;
+  width: 100%;
+  font-size: 14px;
+  text-transform: capitalize;
+  transition: 0.5s;
+}
+.form-element input[type="text"]:focus,
+.form-element input[type="email"]:focus,
+textarea:focus {
+  background: #f0f0f0;
+}
+input[type="submit"] {
+  color: #fff;
+  background: purple;
+  border-radius: 8px;
+  padding: 7px 13px;
+  border: none;
+  outline: none;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 16px;
+  font-weight: 700;
+}

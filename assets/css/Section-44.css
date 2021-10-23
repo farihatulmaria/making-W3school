@@ -1,0 +1,76 @@
+ul {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(120deg, darkblue, #008cff);
+}
+ul li {
+  display: inline-block;
+  position: relative;
+}
+ul li a {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 18px;
+  display: block;
+}
+ul li a:hover {
+  color: #fff;
+}
+.main-menu li:hover ul {
+  opacity: 1;
+  z-index: 2;
+  top: 66px;
+  visibility: visible;
+}
+ul li ul {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  width: 200px;
+  padding: 10px 0;
+  z-index: -1;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.2s;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  text-align: center;
+}
+ul li ul li {
+  display: block;
+}
+.main-menu ul li:hover > a {
+  background: linear-gradient(120deg, #008cff, darkblue);
+  color: #fff;
+}
+.main-menu ul ul li ul {
+  left: 200px;
+  top: -3px;
+  transition: all 0.5s ease-in-out;
+}
+.main-menu ul ul li:hover > ul {
+  visibility: visible;
+  opacity: 1;
+}
+.main-menu li:hover ul ul {
+  visibility: hidden;
+  opacity: 0;
+}
+/* Resoppistive css */
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 980px) {
+}
+@media screen and (max-width: 768px) {
+}
+@media screen and (max-width: 640px) {
+}
+
+@media screen and (max-width: 480px) {
+}
+
+@media screen and (max-width: 320px) {
+}

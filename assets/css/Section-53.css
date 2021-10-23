@@ -1,0 +1,139 @@
+header {
+  background: url("https://farihatulmaria.github.io/150/assets/img/blueberries-3460423_1920.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.head {
+  margin-top: 20px;
+}
+.logo a {
+  color: #fff;
+}
+.main-menu {
+  color: #fff;
+}
+.main-menu ul li {
+  display: inline-block;
+  padding: 20px 20px;
+}
+.main-menu ul li a {
+  color: #fff;
+  font-weight: 700;
+}
+.homwpage-slider {
+  margin-top: 157px;
+}
+.slider-text h1 {
+  margin-bottom: 30px;
+}
+.slider-btn {
+  background: darkblue;
+  color: #fff;
+  padding: 14px 32px;
+  border-radius: 32px;
+  border: 2px solid darkblue;
+  transition: all 0.5s ease;
+  font-weight: 700;
+}
+.slider-btn:hover {
+  background: #fff;
+  color: darkblue;
+}
+#blur-area {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  -webkit-backdrop-filter: blur(15px);
+  backdrop-filter: blur(15px);
+}
+/* offset-menu css */
+.offcanvas-menu {
+  position: fixed;
+  background: #150e56;
+  top: 0;
+  left: -300px;
+  width: 21%;
+  height: 100%;
+  text-transform: capitalize;
+  color: #fff;
+  padding: 36px;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+  z-index: 99;
+}
+.offcanvas-menu.show-menu {
+  left: 0;
+  opacity: 1;
+  visibility: visible;
+  transition: all 0.3s ease-in-out;
+}
+.offcanvas-shade {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: darkblue;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+  z-index: 99;
+}
+.offcanvas-shade.shade-active {
+  opacity: 0.3;
+  visibility: visible;
+}
+.menu-close svg {
+  font-size: 42px;
+  cursor: pointer;
+  margin-left: 176px;
+}
+.menu-trigger svg {
+  font-size: 26px;
+  cursor: pointer;
+}
+.offcanvas-menu ul li {
+  padding: 16px 0;
+  text-align: center;
+}
+.offcanvas-menu ul li a {
+  color: #fff;
+  font-size: 23px;
+}
+.menu-trigger {
+  color: #fff;
+  font-size: 107px;
+  position: absolute;
+  top: -62px;
+  right: 74px;
+  display: block;
+}
+/* Resoppistive css */
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 980px) {
+}
+@media screen and (max-width: 768px) {
+  .menu-trigger {
+    display: block;
+  }
+  .main-menu {
+    display: none;
+  }
+}
+@media screen and (max-width: 640px) {
+}
+
+@media screen and (max-width: 480px) {
+}
+
+@media screen and (max-width: 320px) {
+}

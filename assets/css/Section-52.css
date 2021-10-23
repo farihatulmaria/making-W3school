@@ -1,0 +1,101 @@
+/* products */
+.product-title {
+  margin-bottom: 50px;
+}
+.product-title p {
+  padding: 0 108px;
+}
+.single-product {
+  height: 350px;
+  position: relative;
+}
+.product-bg {
+  background: url("https://farihatulmaria.github.io/150/assets/img/Watch1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.product-bg2 {
+  background: url("https://farihatulmaria.github.io/150/assets/img/watch-2.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.product-bg3 {
+  background: url("https://farihatulmaria.github.io/150/assets/img/watch-3.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.product-bg4 {
+  background: url("https://farihatulmaria.github.io/150/assets/img/watch-4.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.product-bg5 {
+  background: url("https://farihatulmaria.github.io/150/assets/img/watch-5.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.product-bg6 {
+  background: url("https://farihatulmaria.github.io/150/assets/img/watch-6.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.product-bg7 {
+  background: url("https://farihatulmaria.github.io/150/assets/img/watch-7.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.single-product:hover::after {
+  opacity: 0.6;
+}
+.single-product:hover .hover-links {
+  opacity: 1;
+  visibility: visible;
+}
+.single-product::after {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: #1cd164;
+  content: "";
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+}
+.single-product .hover-links {
+  position: absolute;
+  top: 34%;
+  left: 9%;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 2;
+  transition: all 0.5s ease-in-out;
+  color: #fff;
+}
+.hover-links a svg {
+  color: #fff;
+  font-size: 36px;
+}
+/* Resoppistive css */
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 980px) {
+}
+@media screen and (max-width: 768px) {
+}
+@media screen and (max-width: 640px) {
+}
+
+@media screen and (max-width: 480px) {
+}
+
+@media screen and (max-width: 320px) {
+}

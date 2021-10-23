@@ -1,0 +1,72 @@
+a.video-play-btn {
+  background: url("https://farihatulmaria.github.io/150/assets/img/bird-6564593_640.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 208%;
+  width: 48%;
+  display: table;
+  position: relative;
+}
+.play-btn {
+  color: #fff;
+  position: absolute;
+  background: red;
+  width: 100px;
+  height: 100px;
+  top: 44%;
+  left: 44%;
+  border-radius: 50%;
+  text-align: center;
+  padding-top: 8px;
+  font-size: 50px;
+}
+a.video-play-btn:hover .video-overlay {
+  transform: scale(1);
+  opacity: 1;
+  visibility: visible;
+}
+.video-overlay {
+  display: table-cell;
+  vertical-align: middle;
+  position: relative;
+  z-index: 1;
+  transform: scale(0.7);
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.5s ease;
+}
+.video-overlay::after {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  z-index: -1;
+  background: darkblue;
+  color: #fff;
+  content: "";
+  transition: all 0.3s;
+}
+.video-overlay:hover::after {
+  opacity: 0.6;
+}
+/* Resoppistive css */
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 980px) {
+}
+@media screen and (max-width: 768px) {
+  a.video-play-btn {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 640px) {
+}
+
+@media screen and (max-width: 480px) {
+}
+
+@media screen and (max-width: 320px) {
+}
