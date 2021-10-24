@@ -10,39 +10,150 @@ a {
 }
 ul {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 ul li {
   display: inline-block;
 }
-a:focus {
+a:focus,
+input:focus {
   outline: 0px solid;
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 0 0 15px;
-  font-weight: 700;
 }
 img {
   max-width: 100%;
   height: auto;
 }
-html,
-body {
-  height: 100%;
-}
-
-input:-webkit-autofill,
-input:-webkit-autofill:hover,
-input:-webkit-autofill:focus {
-  box-shadow: 0 0 0px 100px white inset !important;
-}
 .slick-dots li button {
   display: none;
 }
+/* main css */
+/* header starts from here */
+.main-menu {
+}
+.logo {
+  width: 13%;
+}
+.menu {
+}
+.menu ul {
+}
+.menu ul li {
+  padding: 25px 15px;
+  font-size: 19px;
+  font-weight: 600;
+}
+.menu ul li:hover {
+  background-color: #04aa6d;
+}
+.menu ul li a {
+  color: #000;
+  position: relative;
+}
+.menu ul li:hover a {
+  color: #fff;
+}
+.menu ul li a svg {
+  margin-top: -11px;
+}
+/* mega-menu strats from here */
+
+/* mega-menu strats from here */
+.display-icons {
+}
+.display-icons ul {
+}
+.display-icons ul li {
+  margin: 24px 12px;
+}
+.display-icons li a {
+  color: #000;
+  font-size: 18px;
+}
+.display-icons a svg {
+}
+.menu-btns {
+  margin-top: 24px;
+}
+.menu-btns a {
+  background: #000;
+  color: #fff;
+  text-transform: capitalize;
+  padding: 6px 26px;
+  font-size: 19px;
+  border-radius: 23px;
+  font-weight: 600;
+}
+.web {
+  background: #ffc0c7 !important;
+  color: #000 !important;
+}
+.paid {
+  background: transparent !important;
+  color: #000 !important;
+}
+.login,
+.menu-btns a:hover {
+  background: #04aa6d !important;
+  color: #fff !important;
+}
+/* header ends from here */
+
+/* sections starts from here */
+section {
+  padding: 30px 0;
+}
+/* html starts from here */
+.html {
+  background: #282a35;
+}
+.courese {
+  color: #fff;
+  margin-top: 13px;
+}
+.courese h1 {
+  font-size: 98px;
+  font-weight: 700;
+}
+.courese p {
+  font-weight: 600;
+  font-size: 19px;
+  margin-bottom: 39px;
+}
+.courese-btn {
+  background-color: #04aa6d;
+  color: white;
+  border-radius: 25px;
+  font-weight: 700;
+  font-size: 18px;
+  display: block;
+  padding: 12px 0;
+  width: 33%;
+  margin: auto;
+}
+.courese-btn:hover {
+  color: white;
+}
+.video-btn {
+  background: #fff4a3 !important;
+  color: #000 !important;
+  position: relative;
+}
+.tag {
+  position: absolute;
+  top: -8px;
+  left: -15px;
+  background: #ffc0c7;
+  color: #000;
+  transform: rotate(-30deg);
+  padding: 4px 14px;
+  font-size: 14px;
+  border-radius: 25px;
+}
+/* html ends from here */
+
+/* sections ends from here */
+
 /* Resoppistive css */
 @media screen and (max-width: 1200px) {
 }
