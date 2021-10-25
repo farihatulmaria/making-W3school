@@ -38,37 +38,46 @@ img {
   padding-left: 0 !important;
   padding-right: 0 !important;
 }
-.menu {
+.new {
+  background: #fff;
+  color: #000;
+  border: 1px solid #000;
+  margin-left: 2px;
+  padding: 2px 8px;
+  border-radius: 23px;
+  font-size: 11px;
+  text-transform: uppercase;
+  font-weight: 700;
 }
-.menu ul {
-}
-.menu ul li {
-  padding: 25px 15px;
-  font-size: 19px;
+
+.menu li {
+  padding: 31px 14px;
+  font-size: 17px;
   font-weight: 600;
 }
-.menu ul li:hover {
+.menu li:hover {
   background-color: #04aa6d;
 }
-.menu ul li a {
+.menu li a {
   color: #000;
   position: relative;
 }
-.menu ul li:hover a {
+.menu li:hover a {
   color: #fff;
 }
-.menu ul li a svg {
+.menu li a svg {
   margin-top: -11px;
 }
 /* mega-menu strats from here */
 
 /* mega-menu strats from here */
 .display-icons {
+  padding: 30px 0px;
 }
 .display-icons ul {
 }
 .display-icons ul li {
-  margin: 24px 12px;
+  margin: 0px 12px;
 }
 .display-icons li a {
   color: #000;
@@ -77,7 +86,7 @@ img {
 .display-icons a svg {
 }
 .menu-btns {
-  margin-top: 24px;
+  margin-top: 30px;
 }
 .menu-btns a {
   background: #000;
@@ -87,6 +96,7 @@ img {
   font-size: 19px;
   border-radius: 23px;
   font-weight: 600;
+  margin: 0 3px;
 }
 .web {
   background: #ffc0c7 !important;
