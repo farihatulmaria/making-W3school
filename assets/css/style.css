@@ -92,11 +92,10 @@ img {
   background: #000;
   color: #fff;
   text-transform: capitalize;
-  padding: 6px 26px;
+  padding: 6px 17px;
   font-size: 19px;
   border-radius: 23px;
   font-weight: 600;
-  margin: 0 3px;
 }
 .web {
   background: #ffc0c7 !important;
